@@ -12,7 +12,7 @@ PRICE_UPDATES = {'Garlic': 5.09,
                  'Celery': 3.19,
                  'Lemon': 1.07}
 
-# TODO: Percorre as linhas em um loop e atualiza os preços
+# Percorre as linhas em um loop e atualiza os preços
 
 for rowNum in range(2, sheet.max_row):  # pula a primeira linha
     produceName = sheet.cell(row=rowNum, column=1).value
